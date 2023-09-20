@@ -4,7 +4,7 @@
   "description": "A npm library To Colorify Your Console Logs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Hrithik0112/dev-color-logs/issues"
   },
-  "homepage": "https://github.com/Hrithik0112/dev-color-logs#readme"
+  "homepage": "https://github.com/Hrithik0112/dev-color-logs#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
