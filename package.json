@@ -2,9 +2,11 @@
   "name": "dev-color-logs",
   "version": "1.0.0",
   "description": "A npm library To Colorify Your Console Logs",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
   "homepage": "https://github.com/Hrithik0112/dev-color-logs#readme",
   "devDependencies": {
     "typescript": "^5.2.2"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
